@@ -6,5 +6,8 @@ use Illuminate\Http\Request;
 
 class HomeController extends Controller
 {
-    //
+    public function index(){
+        $movies = config('movies');
+        return view('home', compact('movies'));
+    }
 }
