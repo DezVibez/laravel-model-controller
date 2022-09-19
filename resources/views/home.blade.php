@@ -7,27 +7,33 @@
 
 @section('main-content')
 
+<div class="flex-container">
 
-  @foreach($movies as $movie)
+    @foreach($movies as $movie)
 
     <div class="card">
-
-        <h1>
+    
+        <h1 class="fs-2 fw-bold">
             {{$movie->title}}
-        </h1>
-
-        <h2>
+        </h1 >
+    
+        <h2 class="fs-4">
             {{$movie->original_title}}
         </h2>
-
-        <h3>
+    
+        <h3 class="fs-4">
             {{$movie->nationality}}
         </h3>
-
+    
     </div>
 
-  @endforeach
 
+    @endforeach
+
+        
+        
+        
+    </div>
 
 
 @endsection
