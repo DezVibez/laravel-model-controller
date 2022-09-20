@@ -1,5 +1,5 @@
-<nav class="navbar bg-light">
+<nav class="navbar bg-dark">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">Movies</a>
+    <a class="navbar-brand text-danger fw-bold" href="#">Netflix</a>
   </div>
 </nav>

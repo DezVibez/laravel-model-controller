@@ -1,13 +1,17 @@
 @charset "UTF-8";
 
-.flex-container {
+main {
+  background-color: black;
+}
+
+main .flex-container {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   margin: 0 auto;
 }
 
-.flex-container .card {
+main .flex-container .card {
   text-align: center;
   width: 20%;
   height: auto;
